@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first page</title>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>City guide</h1>
+      </div>
+      <div class="menu">
+        <a class="icons-search"></a>
+        <a class="icons-headphone" id="icons-headphone"></a>
+        <a class="icons-want" id="icons-want"></a>
+        <div class="userpick-main">
+          <img src="media/userpicks/1.png">
+        </div>
+      </div>
+    </nav>
+    <div class="section-1">
+      <h2>Исследуй мир.<br>Найди вдохновение.</h2>
+    </div>
+  </header>
+
+  <div class="player" id="player">
+    <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/309830153&color=%23242225&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  </div>
+
+  <main>
+    <div class="section-2">
+      <div class="headline">
+        <h3>Что хотят посетить ваши друзья</h3>
+      </div>
+      <div class="carousel">
+
+        <div class="carousel-block">
+          <div class="userpick-friend">
+            <img src="media/userpicks/2.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/1.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/2.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/3.png">
+          </div>
+          <div class="subheader-user">
+            <h3>@alina.frost</h3>
+          </div>
+        </div>
+
+        <div class="carousel-block">
+          <div class="userpick-friend">
+            <img src="media/userpicks/3.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/4.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/5.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/6.png">
+          </div>
+          <div class="subheader-user">
+            <h3>@miraza.diraka</h3>
+          </div>
+        </div>
+
+        <div class="carousel-block">
+          <div class="userpick-friend">
+            <img src="media/userpicks/4.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/7.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/8.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/9.png">
+          </div>
+          <div class="subheader-user">
+            <h3>@kirill.dubrovsky</h3>
+          </div>
+        </div>
+
+        <div class="carousel-block">
+          <div class="userpick-friend">
+            <img src="media/userpicks/5.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/10.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/11.png">
+          </div>
+          <div class="content-block">
+            <img src="media/card-friends/12.png">
+          </div>
+          <div class="subheader-user">
+            <h3>@ulia.hashem</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section-3">
+      <div class="section-3-1">
+        <ul id="tags">
+          <li class="tag" data-tag-type="gallery">Галереи</li>
+          <li class="tag" data-tag-type="housing">Жилье</li>
+          <li class="tag" data-tag-type="market">Рынки</li>
+          <li class="tag" data-tag-type="сulturalсentre">Культурные центры</li>
+          <li class="tag" data-tag-type="adminbuilding">Административные здания</li>
+        </ul>
+      </div>
+      <div class="section-3-2" id="items">
+        <div class="section-3-2-wrap">
+
+          <div class="card" data-tag-type="housing">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">London, UK</h4>
+                <h4 class="header-card">Barbican</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/3.png">
+                  <h3>@miraza.diraka</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/1.png">
+          </div>
+
+          <div class="card" data-tag-type="market">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Barcelona, Spain</h4>
+                <h4 class="header-card">ENCANTS MARKET b720</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/2.png">
+                  <h3>@alina.frost</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/2.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">London, UK</h4>
+                <h4 class="header-card">Switch House Tate Modern</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/2.png">
+                  <h3>@alina.frost</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/3.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">New York, USA</h4>
+                <h4 class="header-card">Whitney Museum of American Art</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/4.png">
+          </div>
+
+          <div class="card" data-tag-type="сulturalсentre">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Hong Kong, China</h4>
+                <h4 class="header-card">Hong Kong Cultural Centre</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/5.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Barcelona, Spain</h4>
+                <h4 class="header-card">Caixa Forum</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/6.png">
+          </div>
+
+          <div class="card" data-tag-type="housing">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Shanghai, China</h4>
+                <h4 class="header-card">Waterhouse Hotel</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <img src="media/icons/18px/want.png">
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/7.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Beirut, Lebanon</h4>
+                <h4 class="header-card">Stone Garden Tower</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/8.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Berlin, Germany</h4>
+                <h4 class="header-card">Bauhaus Archiv</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/9.png">
+          </div>
+
+          <div class="card" data-tag-type="adminbuilding">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Tbilisi, Georgia</h4>
+                <h4 class="header-card">Ministry of Highway Construction of the Georgian SSR</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/10.png">
+          </div>
+
+          <div class="card" data-tag-type="housing">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">London, UK</h4>
+                <h4 class="header-card">Barbican</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/3.png">
+                  <h3>@miraza.diraka</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/1.png">
+          </div>
+
+          <div class="card" data-tag-type="market">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Barcelona, Spain</h4>
+                <h4 class="header-card">ENCANTS MARKET b720</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/2.png">
+                  <h3>@alina.frost</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/2.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">London, UK</h4>
+                <h4 class="header-card">Switch House Tate Modern</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/2.png">
+                  <h3>@alina.frost</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/3.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">New York, USA</h4>
+                <h4 class="header-card">Whitney Museum of American Art</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/4.png">
+          </div>
+
+          <div class="card" data-tag-type="сulturalсentre">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Hong Kong, China</h4>
+                <h4 class="header-card">Hong Kong Cultural Centre</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/5.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Barcelona, Spain</h4>
+                <h4 class="header-card">Caixa Forum</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/6.png">
+          </div>
+
+          <div class="card" data-tag-type="housing">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Shanghai,China</h4>
+                <h4 class="header-card">Waterhouse Hotel</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                    <img src="media/icons/18px/want.png">
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/7.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Beirut, Lebanon</h4>
+                <h4 class="header-card">Stone Garden Tower</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/8.png">
+          </div>
+
+          <div class="card" data-tag-type="gallery">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Berlin, Germany</h4>
+                <h4 class="header-card">Bauhaus Archiv</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/9.png">
+          </div>
+
+          <div class="card" data-tag-type="adminbuilding">
+            <div class="card-text">
+              <div class="card-text-header">
+                <h4 class="subheader-card">Tbilisi, Georgia</h4>
+                <h4 class="header-card">Ministry of Highway Construction of the Georgian SSR</h4>
+              </div>
+              <div class="card-text-footer">
+                <div class="card-text-footer-1">
+                  <img src="media/userpicks/4.png">
+                  <h3>@kirill.dubrovsky</h3>
+                </div>
+                <div class="card-text-footer-2">
+                  <a class="icons-headphone" id="icons-headphone"></a>
+                  <a class="icons-want" id="icons-want"></a>
+                </div>
+              </div>
+            </div>
+            <img src="media/card/184px/10.png">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  <div class="section-4">
+    <div class="headline">
+      <h3>Ваш город Нью-Йорк</h3>
+    </div>
+    <div class="section-4-2">
+
+      <div class="card">
+        <div class="card-text">
+          <div class="card-text-header">
+            <h4 class="subheader-card">New York, USA</h4>
+            <h4 class="header-card">The Breuer Building</h4>
+          </div>
+          <div class="card-text-footer">
+            <div class="card-text-footer-1">
+              <img src="media/userpicks/4.png">
+              <h3>@kirill.dubrovsky</h3>
+            </div>
+            <div class="card-text-footer-2">
+              <a class="icons-headphone" id="icons-headphone"></a>
+              <a class="icons-want" id="icons-want"></a>
+            </div>
+          </div>
+        </div>
+       <img src="media/card/184px/11.png">
+      </div>
+
+      <div class="card">
+        <div class="card-text">
+          <div class="card-text-header">
+            <h4 class="subheader-card">New York, USA</h4>
+            <h4 class="header-card">Solomon R. Guggenheim Museum</h4>
+          </div>
+          <div class="card-text-footer">
+            <div class="card-text-footer-1">
+              <img src="media/userpicks/4.png">
+              <h3>@kirill.dubrovsky</h3>
+            </div>
+            <div class="card-text-footer-2">
+              <a class="icons-headphone" id="icons-headphone"></a>
+              <a class="icons-want" id="icons-want"></a>
+            </div>
+          </div>
+        </div>
+        <img src="media/card/184px/12.png">
+      </div>
+
+      <div class="card">
+        <div class="card-text">
+          <div class="card-text-header">
+            <h4 class="subheader-card">New York, USA</h4>
+            <h4 class="header-card">Whitney Museum of American Art</h4>
+          </div>
+          <div class="card-text-footer">
+            <div class="card-text-footer-1">
+              <img src="media/userpicks/4.png">
+              <h3>@kirill.dubrovsky</h3>
+            </div>
+            <div class="card-text-footer-2">
+              <a class="icons-headphone" id="icons-headphone"></a>
+              <a class="icons-want" id="icons-want"></a>
+            </div>
+          </div>
+        </div>
+        <img src="media/card/184px/13.png">
+      </div>
+
+      <div class="card">
+        <div class="card-text">
+          <div class="card-text-header">
+            <h4 class="subheader-card">New York, USA</h4>
+            <h4 class="header-card">The high line New York</h4>
+          </div>
+          <div class="card-text-footer">
+            <div class="card-text-footer-1">
+              <img src="media/userpicks/4.png">
+              <h3>@kirill.dubrovsky</h3>
+            </div>
+            <div class="card-text-footer-2">
+              <a class="icons-headphone" id="icons-headphone"></a>
+              <a class="icons-want" id="icons-want"></a>
+            </div>
+          </div>
+        </div>
+        <img src="media/card/184px/14.png">
+      </div>
+
+      <div class="card">
+        <div class="card-text">
+          <div class="card-text-header">
+            <h4 class="subheader-card">New York, USA</h4>
+            <h4 class="header-card">MOMA</h4>
+          </div>
+          <div class="card-text-footer">
+            <div class="card-text-footer-1">
+              <img src="media/userpicks/4.png">
+              <h3>@kirill.dubrovsky</h3>
+            </div>
+            <div class="card-text-footer-2">
+              <a class="icons-headphone" id="icons-headphone"></a>
+              <a class="icons-want" id="icons-want"></a>
+            </div>
+          </div>
+        </div>
+        <img src="media/card/184px/15.png">
+      </div>
+
+    </div>
+  </div>
+  <div id="map"></div>
+  <div class="section-4">
+    <div class="headline">
+      <h3>Вам также может понравится</h3>
+    </div>
+    <div class="section-4-2">
+      <div class="card">
+       <img src="media/card/184px/1.png">
+      </div>
+      <div class="card">
+        <img src="media/card/184px/2.png">
+      </div>
+      <div class="card">
+        <img src="media/card/184px/3.png">
+      </div>
+      <div class="card">
+        <img src="media/card/184px/4.png">
+      </div>
+      <div class="card">
+        <img src="media/card/184px/5.png">
+      </div>
+    </div>
+  </div>
+
+  </main>
+
+  <footer>
+    <div class="logo-footer">
+      <img src="media/logo/logo.png">
+      <h2>City guide</h2>
+    </div>
+    <div class="footer-text">
+      <h2 class="copyright">© 2019</h2>
+      <h2>Сделано с любовью <br> командой талантиливых людей</h2>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSeE598_H4EA9hhswLtHQFnqihK-h0Vr0&callback=initMap" async defer></script>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
